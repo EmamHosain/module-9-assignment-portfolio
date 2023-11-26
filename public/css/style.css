@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.selector-for-some-widget {
+    box-sizing: border-box;
+  }
+.primary-color{
+    color: rgb(89, 9, 9);
+}
+header{
+    box-sizing: border-box;
+    min-height: 100vh;
+    /* background-image: ; */
+    /* background-color: grey; */
+    background-image: url("/img/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg");
+    background-size: cover;
+    position: relative;
+}
+nav .navbar-brand{
+    display: inline-block;
+    font-size: 1.5rem;
+    color: white;
+
+}
+.navbar-nav{
+    display: block;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    width: 100%;
+
+}
+.navbar-nav a{
+    display: inline-block;
+    color: white;
+    font-size: 1.1rem;
+
+}
+nav{
+    background-color: rgba(128, 128, 128, 0.794);
+}
+
+header .my-info{
+    width: 400px;
+    margin: auto;
+    min-height: 400px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+header .my-info h1,h2,h3{
+    text-align: left;
+}
+header .my-info .hire-me-button{
+    background-color: rgb(89, 9, 9);
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 1.7rem;
+    font-weight: 500;
+    border:1px;
+    border-radius: 0px 8px 8px 0px;
+    
+}
+main .about-me{
+    padding: 2rem 0rem;
+    min-height: 60vh;
+}
+main .about-me .about-my-info{
+    margin-top: 10rem;
+}
+img{
+    max-width: 100%;
+}
+main .about-me .who-i-am{
+    width: 280px;
+    margin: auto;
+    position: relative;
+    color: rgb(89, 9, 9);
+}
+main .about-me .who-i-am span.right{
+    width: 85px;
+    position: absolute;
+    top: 55%;
+    right: 0px;
+    height: 2px;
+    background-color: rgb(89, 9, 9);
+
+
+}
+main .about-me .who-i-am span.left{
+    width: 85px;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    height: 2px;
+    background-color: rgb(89, 9, 9);
+
+}
+main .about-me .my-img{
+    border-radius: 10px;
+}
+main .about-me .download-cv-btn{
+    background-color: rgb(89, 9, 9);
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 1.7rem;
+    font-weight: 500;
+    border:1px;
+    border-radius: 0px 8px 8px 0px;
+}
+main .projects{
+    min-height: 60vh;
+}
+main .projects img{
+    margin-top: 0.8rem;
+    border-radius: 10px;
+}
+main .contact-heading .who-i-am{
+    width: 280px;
+    margin: auto;
+    position: relative;
+    color: rgb(89, 9, 9);
+}
+span.right{
+    width: 80px;
+    position: absolute;
+    top: 55%;
+    right: 0px;
+    height: 2px;
+    background-color: rgb(89, 9, 9);
+
+
+}
+span.left{
+    width: 80px;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    height: 2px;
+    background-color: rgb(89, 9, 9);
+
+}
+
+.contact-section{
+    margin-bottom: 3rem;
+}
+.contact-section .main-contact-info .icons{
+    display: flex;
+    justify-content: center;
+
+}
+.contact-section .main-contact-info .icons div i{
+    font-size: 3rem;
+    margin: 1rem;
+    display: inline-block;
+    cursor: pointer;
+   
+}
+.contact-section .main-contact-info{
+    width: 300px;
+    margin :auto;
+    /* background-color: grey; */
+
+}
+.contact-section .contact-info{
+    /* background-color: aqua; */
+}
+.contact-section .contact-info .div-1{
+    margin-top: 10px;
+}
+.contact-section .contact-info .div-1 .div-3{
+    margin-left: 20px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    /* background-color: brown; */
+}
+
+.contact-section .contact-info .div-2{
+    color: rgb(89, 9, 9);
+
+}
+footer{
+    padding: 1rem 0rem;
+    padding-top: 2.5rem;
+    background-color: rgba(128, 128, 128, 0.232);
+ 
+}
+footer .social-icons{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+
+}
+footer .social-icons i{
+    font-size: 1.5rem;
+    margin: 0.1rem;
+    padding: 0.2rem;
+}
